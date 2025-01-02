@@ -28,7 +28,7 @@
     color: var(--color-senary);
 }
 
-.nav-link-custom:hover {
+.nav-link-custom:hover, .nav-link-custom:focus {
     color: var(--color-primary);
 }
 
@@ -43,6 +43,8 @@
 .header-container {
     display: flex;
     gap: 205px;
+
+    margin: auto;
 }
 
 .header-custom {
@@ -106,7 +108,10 @@
     flex-wrap: wrap;
 }
 
+.arrow-container {
+    margin: auto;
+}
+
 .arrow {
     max-width: 43.5px;
-    margin: auto;
 }
