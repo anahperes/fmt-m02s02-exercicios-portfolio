@@ -115,3 +115,36 @@
 .arrow {
     max-width: 43.5px;
 }
+
+.about-me .header {
+    color: var(--color-quaternary);
+}
+
+.text {
+    font-size: 15px;
+    max-width: 455px;
+    text-align: justify;
+    color: var(--color-quaternary);
+}
+
+.about-skills {
+    display: flex;
+    gap: 290px;
+    flex-wrap: wrap;
+    
+    max-width: 1160px;
+    margin: 40px auto;
+}
+
+.my-skills .header {
+    color: var(--color-tertiary);
+}
+
+.about-skills .skill-icon {
+    width: 17px;
+}
+
+.skill-container {
+    margin-bottom: 10px;
+}
+
