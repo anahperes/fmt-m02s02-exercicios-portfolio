@@ -311,3 +311,17 @@
     margin: auto;
 }
 
+.footer {
+    height: 90px;
+}
+
+.footer-text {
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+
+    padding-block: 35px;
+
+    color: var(--color-quaternary);
+}
+
